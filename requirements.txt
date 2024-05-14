@@ -1,0 +1,2 @@
+pydantic[email]
+pydantic_extra_types
