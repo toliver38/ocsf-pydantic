@@ -4,16 +4,12 @@ OCSF-Pydantic
 
 ## Description
 
-[Pydantic](https://docs.pydantic.dev/latest/) models for [OCSF schema](https://schema.ocsf.io) events and objects, for
-validation and usage
+[Pydantic](https://docs.pydantic.dev/latest/) validated models for [OCSF schema](https://schema.ocsf.io) events & objects
 
-## Installation
-
-`pip install ocsf-pydantic`
 
 ## Usage
 
-after install, the module & it's objects are available via `ocsf`
+all event & object models are available via `ocsf`
 
 ```
 from ocsf.events.application.api import Api

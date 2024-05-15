@@ -163,3 +163,4 @@ cython_debug/
 # patch failures
 *.rej
 *.DS_Store
+*.whl

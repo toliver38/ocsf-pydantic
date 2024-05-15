@@ -54,9 +54,6 @@ class BaseEvent(BaseModel):
     severity_id: SeverityID = SeverityID.Unknown
     severity: str | None = None
 
-    cloud: Cloud
-
-    api: API | None = None
 
     count: int | None = None
 
@@ -71,6 +68,9 @@ class BaseEvent(BaseModel):
     status_detail: str | None = None
     status_id: StatusID = StatusID.Unknown
     status: str | None = None
+
+    cloud: Cloud | None = None
+    api: API | None = None
 
     observables: list[Observable] | None = None
     enrichments: list[Enrichment] | None = None
