@@ -40,7 +40,7 @@ class IncidentFinding(BaseEvent):
     An Incident Finding reports the creation, update, or closure of security
     incidents as a result of detections and/or analytics.
     """
-    category_uid = 2
+
     class_uid: int = 2005
     class_name: str = 'Incident Finding'
 
