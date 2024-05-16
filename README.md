@@ -6,6 +6,10 @@ OCSF-Pydantic
 
 [Pydantic](https://docs.pydantic.dev/latest/) validated models for [OCSF schema](https://schema.ocsf.io) events & objects
 
+## Installation
+
+`pip install ocsf-pydantic`
+
 
 ## Usage
 
