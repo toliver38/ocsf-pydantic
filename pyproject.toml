@@ -1,6 +1,6 @@
 [project]
 name = "ocsf-pydantic"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Crowdalert, Inc", email="hello@crowdalert.com" },
 ]
