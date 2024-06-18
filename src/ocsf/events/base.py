@@ -54,14 +54,13 @@ class BaseEvent(BaseModel):
     severity_id: SeverityID = SeverityID.Unknown
     severity: str | None = None
 
-
     count: int | None = None
 
-    time: datetime
+    time: int
     timezone_offset: int | None = None
 
-    start_time: datetime | None = None
-    end_time: datetime | None = None
+    start_time: int | None = None
+    end_time: int | None = None
     duration: int | None = None
 
     status_code: str | None = None
