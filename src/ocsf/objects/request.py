@@ -1,5 +1,6 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, JsonValue
 from .container import Container
+
 
 class RequestElements(BaseModel):
     """
@@ -10,5 +11,5 @@ class RequestElements(BaseModel):
 
     # Optional:
     containers: list[Container] | None = None
-    data: dict | None = None # The additional data that is associated with the api request.
+    data: JsonValue | None = None # The additional data that is associated with the api request.
     flags: list[str] | None = None
