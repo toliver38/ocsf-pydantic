@@ -9,6 +9,7 @@ from .dns_query import DNSQuery
 from .network_connection_info import NetworkConnectionInformation
 from .api import API
 from .actor import Actor
+from .account import Account
 from .databucket import Databucket
 
 
@@ -19,6 +20,7 @@ class EvidenceArtifacts(BaseModel):
     """
 
     # Recommended:
+    account: Account | None = None # Describes details about the account associated to the activity
     actor: Actor | None = None # Describes details about the user/role/process that was the source of
                                # the activity that triggered the detection.
     api: API | None = None # Describes details about the API call associated to the activity that
